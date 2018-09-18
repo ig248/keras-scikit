@@ -9,7 +9,9 @@ from keras.utils.test_utils import get_test_data
 from sklearn.preprocessing import OneHotEncoder
 
 from scikit_keras.keras.batches import ArrayBatchGenerator
-from scikit_keras.keras.wrapper import BaseWrapper, KerasClassifier, KerasRegressor
+from scikit_keras.keras.wrapper import (BaseWrapper,
+                                        KerasClassifier,
+                                        KerasRegressor)
 from scikit_keras.utils.pickle import dumpf, loadf
 
 input_dim = 5

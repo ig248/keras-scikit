@@ -1,5 +1,5 @@
 lint:
-	flake8 --ignore=N803,N806 --exclude models .
+	flake8 .
 	pydocstyle .
 	mypy .
 
